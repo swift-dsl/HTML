@@ -1,3 +1,4 @@
+import DSL
 import References
 
 public struct Citation: HTMLNode {
