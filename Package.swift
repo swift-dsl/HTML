@@ -17,11 +17,11 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/swift-dsl/DSL.git", branch: "master"),
-        .package(url: "https://github.com/leviouwendijk/Milieu.git", branch: "master"),
-        .package(url: "https://github.com/leviouwendijk/Methods.git", branch: "master"),
-        .package(url: "https://github.com/leviouwendijk/Primitives.git", branch: "master"),
-        .package(url: "https://github.com/leviouwendijk/References.git", branch: "master"),
-        .package(url: "https://github.com/leviouwendijk/FileTypes.git", branch: "master"),
+        .package(url: "https://github.com/swift-lco/Milieu.git", branch: "master"),
+        .package(url: "https://github.com/swift-lco/Methods.git", branch: "master"),
+        .package(url: "https://github.com/swift-lco/Primitives.git", branch: "master"),
+        .package(url: "https://github.com/swift-lco/References.git", branch: "master"),
+        .package(url: "https://github.com/swift-lco/FileTypes.git", branch: "master"),
     ],
     targets: [
         .target(
