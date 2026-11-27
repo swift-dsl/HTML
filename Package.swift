@@ -20,7 +20,6 @@ let package = Package(
         .package(url: "https://github.com/swift-lco/Milieu.git", branch: "master"),
         .package(url: "https://github.com/swift-lco/Methods.git", branch: "master"),
         .package(url: "https://github.com/swift-lco/Primitives.git", branch: "master"),
-        .package(url: "https://github.com/swift-lco/References.git", branch: "master"),
         .package(url: "https://github.com/swift-lco/FileTypes.git", branch: "master"),
     ],
     targets: [
@@ -31,7 +30,6 @@ let package = Package(
                 .product(name: "Milieu", package: "Milieu"),
                 .product(name: "Methods", package: "Methods"),
                 .product(name: "Primitives", package: "Primitives"),
-                .product(name: "References", package: "References"),
                 .product(name: "FileTypes", package: "FileTypes"),
             ],
         ),
